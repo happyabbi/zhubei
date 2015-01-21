@@ -2,6 +2,7 @@ package org.zhubei.church.zhubei;
 
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -33,7 +34,7 @@ public class MainActivity extends ActionBarActivity {
         if (id == R.id.action_settings) {
             return true;
         }
-
+        Log.d("Test","test");
         return super.onOptionsItemSelected(item);
     }
 }
